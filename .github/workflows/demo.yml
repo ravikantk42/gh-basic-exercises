@@ -47,6 +47,6 @@ jobs:
       - name: Output build contents
         run: ls -la dist
       - name: output filename
-        run: echo "Built JS file:" ${{ needs.build.outputs.script-file }}"
+        run: echo " ${{ needs.build.outputs.script-file }}"
       - name: Deploy website
         run: echo "Deploying website..."  
