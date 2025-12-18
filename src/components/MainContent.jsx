@@ -16,5 +16,5 @@ function MainContent() {
     </main>
   );
 }
-
+//added export default
 export default MainContent;
